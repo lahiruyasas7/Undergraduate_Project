@@ -1,0 +1,3 @@
+#This is 404 Error page to show
+
+ErrorDocument 404 http://localhost/PPA/Company/404.php

@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{background: #eee url(http://subtlepatterns.com/patterns/sativa.png);}
+html,body{
+    position: relative;
+    height: 100%;
+}
+
+body{
+
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+
+/*================================================*/
+/* ---------------HEADER SECTION----------------- */
+/*================================================*/
+
+.black-bar {
+
+    background: #4e4e4e;
+    text-align: right;
+    width: auto;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    height: 60px;
+    border-radius: 12px;
+
+}
+
+.menu-bar{
+
+    text-align: center;
+    background: rgb(235, 235, 235);
+    width: auto;
+  
+}
+
+.btn btn-primary  {
+
+    align-content: flex-end;
+
+}
+
+
+.nav-item {
+
+    margin-left: 10px;
+}
+
+
+/*================================================*/
+/* ---------------FOOTER SECTION----------------- */
+/*================================================*/
+
+#copyright
+	{
+        overflow: hidden;
+        padding-top: 20px;
+        background: #3a3a3a;
+        width: 100%;
+	}
+	
+#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+        font-family: "Open Sans", sans-serif;
+		font-size: 0.80em;
+		color: #b3b3b3;
+	}
